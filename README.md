@@ -33,7 +33,7 @@ Then enter the password you've just created. There you go and welcome now to thi
 ## Description of all levels :
 --------------
 - level 00 to level 05 are basically challenges for trainning of all linux basic command
-- *level 07 (Tropical Fruits) is a more complexe and advanced topic on linux (about advanced linear programmation on linux and the buffer overflow)
+- level 07 (Tropical Fruits) is a more complexe and advanced topic on linux (about advanced linear programmation on linux and the buffer overflow)
 - level 08 (ssh z) is about ssh concept
 - level 10 (choose your Path) is about redirection and ...
 - level 12 (Pytong) is about changing file content
