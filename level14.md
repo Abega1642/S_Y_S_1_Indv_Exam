@@ -6,14 +6,15 @@
 In this challenge of the LFI (Local File Inclusion), we are redirected to this link of LFI challenge web site : https://lfi.warchall.net/ .
 
 First thing to do is to check the vulnerability of that web page. We remarque that if we click on the flag we see in the web site, we see that the propriety of the ling changes such as :
--   https://lfi.warchall.net/index.php?lang=en
--   https://lfi.warchall.net/index.php?lang=de
+-   ```https://lfi.warchall.net/index.php?lang=en```
+-   ```https://lfi.warchall.net/index.php?lang=de```
 
-So I tryed to see what else can I put there so I tryed lot of things like https://lfi.warchall.net/index.php?lang=solution , https://lfi.warchall.net/index.php?lang=solution/ etc ...
-But something happen when I tryed this one : https://lfi.warchall.net/index.php?lang=solution.php.
-There is a message there that says : "_teh falg si naer!
+So I tryed to see what else can I put there so I tryed lot of things like    ```https://lfi.warchall.net/index.php?lang=solution``` , ```https://lfi.warchall.net/index.php?lang=solution.php```, etc
+But something happen when I tryed this one : ```https://lfi.warchall.net/index.php?lang=solution.php```
+
+There is a message there that says :``` "_teh falg si naer!
 the flag is near!_ and "_fatal error: Uncaught TypeError: Cannot access offset of type string on string in /home/level/14_live_fi/www/index.php:12 Stack trace: #0 {main} thrown in /home/level/14_live_fi/www/index.php on line 12
-Fatal error: Uncaught GWF_Exception: thrown in /opt/php/gwf3/core/inc/util/GWF_Log.php on line 249"_
+Fatal error: Uncaught GWF_Exception: thrown in /opt/php/gwf3/core/inc/util/GWF_Log.php on line 249"_```
 
 SO I did some research on how we can find the solution especially on Local File Inclusion and document myself on this website : https://www.php.net/manual/fr/filters.convert.php. Then got an idea how to solve it.
 
