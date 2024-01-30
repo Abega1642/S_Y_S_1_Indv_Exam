@@ -11,7 +11,7 @@ drwxr-xr-x  5 root    root    4096 Feb  1  2023 01_choice_tree
 Check what's inside  that directory. There are lots of directory and file there. So you should check all of them in the same time using a unique command.
 ```sh
 yourUsername@warchall:/home/level$ cd 01_choice_tree
-yourUsername@warchall:/home/level$ ls -alR
+yourUsername@warchall:/home/level/01_choice_tree$ ls -alR
     ...
 ./blue/hats/grey/solution/patience:
 total 12
@@ -22,6 +22,6 @@ drwxr-xr-x 3 root root 4096 Feb  1  2023 ..
 ```
 Now look what's inside that file ```SOLUTION.txt``` :
 ```sh
-yourUsername@warchall:/home/level$ cat blue/hats/grey/solution/patience/SOLUTION.txt
+yourUsername@warchall:/home/level/01_choice_tree$ cat blue/hats/grey/solution/patience/SOLUTION.txt
 ```
 There you go !
