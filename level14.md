@@ -33,7 +33,7 @@ This code consists on getting the url of the challenge which is ```https://lfi.w
 
 Now after creating that file, for example we name it ```lfi.php```, we should lunch it (execute it);
 ```sh
-yourUsername@warchall:~$ php fli.php
+yourUsername@warchall:~$ php lfi.php
 ```
 Then look at your ```solution_decoded.php```:
 ```sh
